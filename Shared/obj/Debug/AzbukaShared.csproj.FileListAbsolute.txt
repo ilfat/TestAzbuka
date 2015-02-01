@@ -1,0 +1,11 @@
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\Shared.exe
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\Shared.pdb
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\mscorlib.dll
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\Newtonsoft.Json.dll
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\normidna.nlp
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\normnfc.nlp
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\normnfd.nlp
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\normnfkc.nlp
+C:\Users\userocker\Projects\Test_Azbuka\Shared\bin\Debug\normnfkd.nlp
+C:\Users\userocker\Projects\Test_Azbuka\Shared\obj\Debug\Shared.exe
+C:\Users\userocker\Projects\Test_Azbuka\Shared\obj\Debug\Shared.pdb

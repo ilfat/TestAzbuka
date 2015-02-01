@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTests", "Shared\ConsoleTests.csproj", "{82AED88F-328F-4D80-B8FB-AE59DE35269D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_azbuka", "Test_azbuka\Test_azbuka.csproj", "{76FA1DBF-B2BE-439B-B630-B1B5DF73B6BB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AzbukaShared", "AzbukaShared\AzbukaShared.shproj", "{F01A74E2-F1BA-4B09-BCCA-63F85E388024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{92C449FA-EC0D-4AA3-985B-456BD4A082F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76FA1DBF-B2BE-439B-B630-B1B5DF73B6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FA1DBF-B2BE-439B-B630-B1B5DF73B6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FA1DBF-B2BE-439B-B630-B1B5DF73B6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FA1DBF-B2BE-439B-B630-B1B5DF73B6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AED88F-328F-4D80-B8FB-AE59DE35269D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AED88F-328F-4D80-B8FB-AE59DE35269D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AED88F-328F-4D80-B8FB-AE59DE35269D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AED88F-328F-4D80-B8FB-AE59DE35269D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C449FA-EC0D-4AA3-985B-456BD4A082F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C449FA-EC0D-4AA3-985B-456BD4A082F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C449FA-EC0D-4AA3-985B-456BD4A082F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C449FA-EC0D-4AA3-985B-456BD4A082F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

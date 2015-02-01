@@ -1,0 +1,3 @@
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.dll
+C:\Users\userocker\Projects\Test_Azbuka\Library\bin\Debug\Library.dll
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Newtonsoft.Json.dll

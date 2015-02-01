@@ -1,0 +1,42 @@
+﻿<Properties StartupItem="Test_azbuka\Test_azbuka.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.32305799144190c5" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_azbuka\FilterListViewAdapter.cs">
+    <Files>
+      <File FileName="Shared\Program.cs" Line="30" Column="30" />
+      <File FileName="Test_azbuka\MainActivity.cs" Line="52" Column="52" />
+      <File FileName="Test_azbuka\FilterListViewAdapter.cs" Line="23" Column="23" />
+      <File FileName="Library\IFilterObject.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\userocker\Projects\Test_Azbuka\Library\PubHouse.cs" Line="7" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="ConsoleTests" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+          <Node name="Library" expanded="True" />
+          <Node name="Test_azbuka" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Properties" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
+              <Node name="menu" expanded="True" />
+              <Node name="values" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Test_Azbuka\PartialCatalogDownloader.cs" line="21" column="1" />
+      <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Shared\PartialCatalogDownloader.cs" line="32" column="1" />
+      <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Shared\PartialCatalogDownloader.cs" line="22" column="1" />
+      <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Shared\Program.cs" line="16" column="18" />
+      <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Shared\Program.cs" line="14" column="10" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Test__azbuka MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

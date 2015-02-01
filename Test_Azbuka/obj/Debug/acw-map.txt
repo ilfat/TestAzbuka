@@ -1,0 +1,2 @@
+Test_azbuka.MainActivity;test_azbuka.MainActivity
+Test_azbuka.FilterListViewAdapter;test_azbuka.FilterListViewAdapter
