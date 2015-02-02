@@ -18,7 +18,7 @@ namespace Test_azbuka
 				new WeakReference<BitmapWorkerTask>(bitmapWorkerTask);
 		}
 
-		public BitmapWorkerTask getBitmapWorkerTask() {
+		public BitmapWorkerTask GetBitmapWorkerTask() {
 			BitmapWorkerTask task = null;
 			bitmapWorkerTaskReference.TryGetTarget (out task);
 			return task;

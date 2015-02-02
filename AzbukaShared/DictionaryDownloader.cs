@@ -8,12 +8,16 @@ namespace AzbukaShared
 {
 	public class DictionaryDownloader
 	{
-		public async Task<List<T>> DownloadAsync<T>(string path) where T:IDictionary
+		public async Task<List<T>> DownloadAsync<T> (string path) where T:IDictionary
 		{
 			return await Task.Factory.StartNew (() => {
-				var webClient = new WebClient ();
-				var downloadedString = webClient.DownloadString (path);
-				return JObject.Parse (downloadedString).SelectToken ("list").ToObject<List<T>> ();
+				try {
+					var webClient = new WebClient ();
+					var downloadedString = webClient.DownloadString (path);
+					return JObject.Parse (downloadedString).SelectToken ("list").ToObject<List<T>> ();
+				} catch {
+					return null;
+				}
 			});
 		}
 	}

@@ -1,30 +1,21 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace AzbukaShared
 {
-	public class Category:IDictionary, IFilterObject
+	public class Category : FilterObject, IDictionary, IFilterObject
 	{
-			public string name { get; set; }
-			public int qty { get; set; }
+		[JsonProperty (PropertyName = "name")]
+		public string Name { get; set; }
 
+		[JsonProperty (PropertyName = "qty")]
+		public int Qty { get; set; }
 
 		#region IFilterObject implementation
 
-		public bool Included {
+		public override string RelevantString {
 			get {
-				throw new NotImplementedException ();
-			}
-			set {
-				throw new NotImplementedException ();
-			}
-		}
-
-		public string RelevantString {
-			get {
-				throw new NotImplementedException ();
-			}
-			set {
-				throw new NotImplementedException ();
+				return Name;
 			}
 		}
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace AzbukaShared
 {
@@ -7,18 +8,26 @@ namespace AzbukaShared
 	{
 		public CatalogContainer()
 		{
-			catalog = new List<Book> ();
+			Catalog = new List<Book> ();
 		}
-		public int previous_cursor { get; set; }
-		public int next_cursor { get; set; }
-		public int total { get; set; }
-		public List<Book> catalog { get; set; }
+		[JsonProperty (PropertyName = "previous_cursor")]
+		public int PreviousCursor { get; set; }
+
+		[JsonProperty (PropertyName = "next_cursor")]
+		public int NextCursor { get; set; }
+
+		[JsonProperty (PropertyName = "total")]
+		public int Total { get; set; }
+
+		[JsonProperty (PropertyName = "catalog")]
+		public List<Book> Catalog { get; set; }
+
 		public static CatalogContainer operator+(CatalogContainer catalogLeft, CatalogContainer catalogRight)
 		{
-			catalogLeft.catalog.AddRange (catalogRight.catalog);
-			catalogLeft.next_cursor = catalogRight.next_cursor;
-			catalogLeft.previous_cursor = catalogRight.previous_cursor;
-			catalogLeft.total = catalogRight.total;
+			catalogLeft.Catalog.AddRange (catalogRight.Catalog);
+			catalogLeft.NextCursor = catalogRight.NextCursor;
+			catalogLeft.PreviousCursor = catalogRight.PreviousCursor;
+			catalogLeft.Total = catalogRight.Total;
 			return catalogLeft;
 		}
 	}

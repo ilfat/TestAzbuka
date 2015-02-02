@@ -41,11 +41,12 @@
     <Compile Include="DictionaryDownloader.cs" />
     <Compile Include="IDictionary.cs" />
     <Compile Include="IFilterObject.cs" />
-    <Compile Include="MyClass.cs" />
     <Compile Include="PartialCatalogDownloader.cs" />
     <Compile Include="Price.cs" />
     <Compile Include="PubHouse.cs" />
     <Compile Include="Category.cs" />
+    <Compile Include="FilterObject.cs" />
+    <Compile Include="BookDownloader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

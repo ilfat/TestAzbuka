@@ -7,4 +7,10 @@
 		 android:icon="@android:drawable/ic_menu_search"
 		 android:actionViewClass="android.widget.SearchView">
 	</item>
+	<item
+		 android:id="@+id/refreshButton"
+		 android:showAsAction="always"
+		 android:title="@string/sync"
+		 android:icon="@drawable/ic_popup_sync_1">
+	</item>
 </menu>

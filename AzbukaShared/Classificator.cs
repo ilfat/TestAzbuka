@@ -1,13 +1,19 @@
 using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace AzbukaShared
 {
 	public class Classificator
 	{
-		public string logical_name { get; set; }
-		public string human_readable_name { get; set; }
-		public string value { get; set; }
+		[JsonProperty (PropertyName = "logical_name")]
+		public string LogicalName { get; set; }
+
+		[JsonProperty (PropertyName = "human_readable_name")]
+		public string HumanReadableName { get; set; }
+
+		[JsonProperty (PropertyName = "value")]
+		public string Value { get; set; }
 	}
 }
 

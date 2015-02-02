@@ -4,7 +4,8 @@ package test_azbuka;
 public class BookListViewAdapter
 	extends android.widget.BaseAdapter
 	implements
-		mono.android.IGCUserPeer
+		mono.android.IGCUserPeer,
+		android.widget.Filterable
 {
 	static final String __md_methods;
 	static {
@@ -13,6 +14,8 @@ public class BookListViewAdapter
 			"n_getItemId:(I)J:GetGetItemId_IHandler\n" +
 			"n_getView:(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;:GetGetView_ILandroid_view_View_Landroid_view_ViewGroup_Handler\n" +
 			"n_getCount:()I:GetGetCountHandler\n" +
+			"n_notifyDataSetChanged:()V:GetNotifyDataSetChangedHandler\n" +
+			"n_getFilter:()Landroid/widget/Filter;:GetGetFilterHandler:Android.Widget.IFilterableInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"";
 		mono.android.Runtime.register ("Test_azbuka.BookListViewAdapter, Test_azbuka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", BookListViewAdapter.class, __md_methods);
 	}
@@ -56,6 +59,22 @@ public class BookListViewAdapter
 	}
 
 	private native int n_getCount ();
+
+
+	public void notifyDataSetChanged ()
+	{
+		n_notifyDataSetChanged ();
+	}
+
+	private native void n_notifyDataSetChanged ();
+
+
+	public android.widget.Filter getFilter ()
+	{
+		return n_getFilter ();
+	}
+
+	private native android.widget.Filter n_getFilter ();
 
 	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

@@ -1,24 +1,28 @@
 ﻿<Properties StartupItem="Test_azbuka\Test_azbuka.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.32305799144190c5" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_azbuka\FilterListViewAdapter.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SimpleAtom" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_azbuka\BookFilter.cs">
     <Files>
-      <File FileName="Shared\Program.cs" Line="30" Column="30" />
-      <File FileName="Test_azbuka\MainActivity.cs" Line="52" Column="52" />
-      <File FileName="Test_azbuka\FilterListViewAdapter.cs" Line="23" Column="23" />
-      <File FileName="Library\IFilterObject.cs" Line="1" Column="1" />
-      <File FileName="c:\Users\userocker\Projects\Test_Azbuka\Library\PubHouse.cs" Line="7" Column="7" />
+      <File FileName="c:\Users\userocker\Projects\Test_Azbuka\Test_Azbuka\MainActivity.cs" Line="16" Column="16" />
+      <File FileName="Test_azbuka\BookListViewAdapter.cs" Line="25" Column="25" />
+      <File FileName="Test_azbuka\BookFilter.cs" Line="75" Column="75" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
+          <Node name="AzbukaShared" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
           <Node name="ConsoleTests" expanded="True">
             <Node name="References" expanded="True" />
           </Node>
-          <Node name="Library" expanded="True" />
-          <Node name="Test_azbuka" expanded="True">
+          <Node name="Test_azbuka" expanded="True" selected="True">
             <Node name="References" expanded="True" />
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="AsyncBitmap" expanded="True" />
             <Node name="Properties" expanded="True" />
             <Node name="Resources" expanded="True">
+              <Node name="drawable" expanded="True" />
+              <Node name="drawable-hdpi" expanded="True" />
               <Node name="layout" expanded="True" />
               <Node name="menu" expanded="True" />
               <Node name="values" expanded="True" />
@@ -35,6 +39,7 @@
       <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Shared\PartialCatalogDownloader.cs" line="22" column="1" />
       <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Shared\Program.cs" line="16" column="18" />
       <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Shared\Program.cs" line="14" column="10" />
+      <Breakpoint file="C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\MainActivity.cs" line="53" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

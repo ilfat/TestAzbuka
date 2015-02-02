@@ -1,3 +1,4 @@
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.csprojResolveAssemblyReference.cache
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.dll
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.pdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.dll.mdb
@@ -8,7 +9,6 @@ C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\UrlImageViewHelper
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Newtonsoft.Json.dll
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\AzbukaShared.pdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\AzbukaShared.dll.mdb
-C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.csprojResolveAssemblyReference.cache
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.dll
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.pdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\android\bin\Test_azbuka.Test_azbuka.apk
@@ -23,5 +23,8 @@ C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\menu\main.xml
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\layout\bookpreviewlayout.xml
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\drawable\azbuka.png
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\layout\filteritem.xml
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\layout\filterlistview.xml
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\drawable-hdpi\ic_popup_sync_1.png
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\layout\detailviewlayout.xml
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\R.cs.flag
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\uploadflags.txt

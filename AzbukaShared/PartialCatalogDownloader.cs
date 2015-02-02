@@ -20,16 +20,20 @@ namespace AzbukaShared
 		public async Task<List<Book>> DownloadAsync (string path)
 		{
 			return await Task.Factory.StartNew (() => {
-				var webClient = new WebClient ();
-				var catalogContainer = new CatalogContainer ();
-				while (true) {
-					string downloadedString = webClient.DownloadString (new Uri (path + "?cursor=" + catalogContainer.next_cursor));
-					var downloadedCatalogPart = JsonConvert.DeserializeObject<CatalogContainer> (downloadedString);
-					catalogContainer += downloadedCatalogPart;
-//					if (catalogContainer.next_cursor >= catalogContainer.total)
-						break;
+				try {
+					var webClient = new WebClient ();
+					var catalogContainer = new CatalogContainer ();
+					while (true) {
+						string downloadedString = webClient.DownloadString (new Uri (path + "?cursor=" + catalogContainer.NextCursor));
+						var downloadedCatalogPart = JsonConvert.DeserializeObject<CatalogContainer> (downloadedString);
+						catalogContainer += downloadedCatalogPart;
+						if (catalogContainer.NextCursor >= catalogContainer.Total)
+							break;
+					}
+					return catalogContainer.Catalog;
+				} catch {
+					return null;
 				}
-				return catalogContainer.catalog;
 			});
 		}
 	}

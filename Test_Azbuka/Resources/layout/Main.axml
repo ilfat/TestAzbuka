@@ -16,13 +16,15 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:id="@+id/filterByCategoryButton" />
+            android:id="@+id/filterByCategoryButton"
+            android:onClick="filterByCategoryClick" />
         <Button
             android:text="@string/filterByPubHouse"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:id="@+id/filterByPubHouseButton" />
+            android:id="@+id/filterByPubHouseButton"
+            android:onClick="filterByPubHouseClick" />
     </LinearLayout>
     <ProgressBar
         android:layout_width="match_parent"

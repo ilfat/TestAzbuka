@@ -63,7 +63,7 @@ namespace Test_azbuka
 			}
 		}
 
-		public static bool cancelPotentialWork(string url, ImageView imageView) {
+		public static bool CancelPotentialWork(string url, ImageView imageView) {
 			BitmapWorkerTask bitmapWorkerTask = getBitmapWorkerTask(imageView);
 
 			if (bitmapWorkerTask != null) {
@@ -81,14 +81,14 @@ namespace Test_azbuka
 				Drawable drawable = imageView.Drawable;
 				if (drawable is AsyncDrawable) {
 					AsyncDrawable asyncDrawable = (AsyncDrawable) drawable;
-					return asyncDrawable.getBitmapWorkerTask();
+					return asyncDrawable.GetBitmapWorkerTask();
 				}
 			}
 			return null;
 		}
 	
-		public static void loadBitmap(string url, ImageView imageView, Resources resources) {
-			if (cancelPotentialWork(url, imageView)) {
+		public static void LoadBitmap(string url, ImageView imageView, Resources resources) {
+			if (CancelPotentialWork(url, imageView)) {
 				BitmapWorkerTask task = new BitmapWorkerTask(imageView, resources);
 				AsyncDrawable asyncDrawable =
 					new AsyncDrawable(resources, null, task);

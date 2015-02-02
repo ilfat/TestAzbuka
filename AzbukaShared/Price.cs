@@ -1,15 +1,22 @@
 using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace AzbukaShared
 {
 	public class Price
 	{
-		public int price { get; set; }
-		public string license_type { get; set; }
-		public int license_period { get; set; }
-		public string @for { get; set; }
-	}
+		[JsonProperty (PropertyName = "price")]
+		public int _Price { get; set; }
 
+		[JsonProperty (PropertyName = "license_type")]
+		public string LicenseType { get; set; }
+
+		[JsonProperty (PropertyName = "license_period")]
+		public int LicensePeriod { get; set; }
+
+		[JsonProperty (PropertyName = "for")]
+		public string For { get; set; }
+	}
 }
 
