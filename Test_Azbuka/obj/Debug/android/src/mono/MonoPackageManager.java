@@ -68,6 +68,9 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"Test_azbuka.dll",
+		"AzbukaShared.dll",
+		"UrlImageViewHelper.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

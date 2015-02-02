@@ -11,18 +11,23 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int azbuka=0x7f020000;
+        public static final int icon=0x7f020001;
     }
     public static final class id {
-        public static final int buttonChild=0x7f060001;
-        public static final int filterListView=0x7f060003;
-        public static final int item11=0x7f060004;
-        public static final int textChild=0x7f060000;
-        public static final int textGroup=0x7f060002;
+        public static final int bookInfoText=0x7f060001;
+        public static final int bookListView=0x7f060007;
+        public static final int checkBox1=0x7f060002;
+        public static final int cover=0x7f060000;
+        public static final int filterByCategoryButton=0x7f060004;
+        public static final int filterByPubHouseButton=0x7f060005;
+        public static final int linearLayout1=0x7f060003;
+        public static final int loadingIndicator=0x7f060006;
+        public static final int searchView=0x7f060008;
     }
     public static final class layout {
-        public static final int childfiltergroupview=0x7f030000;
-        public static final int filtergroupview=0x7f030001;
+        public static final int bookpreviewlayout=0x7f030000;
+        public static final int filteritem=0x7f030001;
         public static final int main=0x7f030002;
     }
     public static final class menu {
@@ -30,6 +35,8 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040001;
+        public static final int filterByCategory=0x7f040004;
+        public static final int filterByPubHouse=0x7f040003;
         public static final int hello=0x7f040000;
         public static final int search=0x7f040002;
     }

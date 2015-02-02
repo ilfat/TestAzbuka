@@ -3,6 +3,12 @@ C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.pdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.dll.mdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.Test_azbuka.apk
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.Test_azbuka-Signed.apk
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\AzbukaShared.dll
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\UrlImageViewHelper.dll
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\AzbukaShared.pdb
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\AzbukaShared.dll.mdb
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.csprojResolveAssemblyReference.cache
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.dll
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.pdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\android\bin\Test_azbuka.Test_azbuka.apk
@@ -14,11 +20,8 @@ C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\drawable-xhdpi
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\drawable-xxhdpi\icon.png
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\drawable-xxxhdpi\icon.png
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\menu\main.xml
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\layout\bookpreviewlayout.xml
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\drawable\azbuka.png
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\layout\filteritem.xml
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\R.cs.flag
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\uploadflags.txt
-C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.csprojResolveAssemblyReference.cache
-C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Library.dll
-C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Newtonsoft.Json.dll
-C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Library.pdb
-C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\layout\filtergroupview.xml
-C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\res\layout\childfiltergroupview.xml

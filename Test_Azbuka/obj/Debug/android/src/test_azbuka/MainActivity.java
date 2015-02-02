@@ -11,6 +11,8 @@ public class MainActivity
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onCreateOptionsMenu:(Landroid/view/Menu;)Z:GetOnCreateOptionsMenu_Landroid_view_Menu_Handler\n" +
+			"n_FilterByCategoryClick:(Landroid/view/View;)V:__export__\n" +
+			"n_FilterByPubHouseClick:(Landroid/view/View;)V:__export__\n" +
 			"";
 		mono.android.Runtime.register ("Test_azbuka.MainActivity, Test_azbuka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MainActivity.class, __md_methods);
 	}
@@ -38,6 +40,22 @@ public class MainActivity
 	}
 
 	private native boolean n_onCreateOptionsMenu (android.view.Menu p0);
+
+
+	public void filterByCategoryClick (android.view.View p0)
+	{
+		n_FilterByCategoryClick (p0);
+	}
+
+	private native void n_FilterByCategoryClick (android.view.View p0);
+
+
+	public void filterByPubHouseClick (android.view.View p0)
+	{
+		n_FilterByPubHouseClick (p0);
+	}
+
+	private native void n_FilterByPubHouseClick (android.view.View p0);
 
 	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
