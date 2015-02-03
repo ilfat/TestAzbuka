@@ -38,7 +38,6 @@ namespace Test_azbuka
 		{
 			MenuInflater.Inflate (Resource.Menu.Main, menu);
 			searchView = (SearchView) menu.FindItem(Resource.Id.searchView).ActionView;
-			searchView.SetOnQueryTextListener (this);
 
 			refreshButton = menu.FindItem(Resource.Id.refreshButton);
 			return true;
@@ -130,6 +129,9 @@ namespace Test_azbuka
 			if (books != null) {
 				loadingIndicator.Visibility = ViewStates.Gone;
 				bookListView.Adapter = new BookListViewAdapter (this, books, categories, pubHouses);
+				searchView.Enabled = true;
+				searchView.SetOnQueryTextListener (null);//Удаляем старый листенер если он есть
+				searchView.SetOnQueryTextListener (this);
 			}
 			refreshButton.SetEnabled(true);
 		}
