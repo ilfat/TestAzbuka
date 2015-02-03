@@ -1,4 +1,3 @@
-C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.csprojResolveAssemblyReference.cache
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.dll
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.pdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Test_azbuka.dll.mdb
@@ -9,6 +8,7 @@ C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\UrlImageViewHelper
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\Newtonsoft.Json.dll
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\AzbukaShared.pdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\bin\Debug\AzbukaShared.dll.mdb
+C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.csprojResolveAssemblyReference.cache
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.dll
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\Test_azbuka.pdb
 C:\Users\userocker\Projects\Test_Azbuka\Test_azbuka\obj\Debug\android\bin\Test_azbuka.Test_azbuka.apk

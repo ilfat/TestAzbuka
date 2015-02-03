@@ -65,6 +65,7 @@
     <Compile Include="FilterListViewAdapter.cs" />
     <Compile Include="FilterItemCheckListener.cs" />
     <Compile Include="DetailBookViewActivity.cs" />
+    <Compile Include="AsyncBitmap\AsyncNonConcurencyBitmapLoad.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

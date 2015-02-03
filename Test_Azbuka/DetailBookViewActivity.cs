@@ -12,6 +12,7 @@ using Android.Views;
 using Android.Widget;
 using AzbukaShared;
 using Android.Text;
+using AsyncNonConcurencyBitmapLoad;
 
 namespace Test_azbuka
 {
@@ -31,7 +32,7 @@ namespace Test_azbuka
 			var bookInfo = FindViewById (Resource.Id.bookInfoText) as TextView;
 			var detailBookInfo = FindViewById (Resource.Id.detailBookInfoText) as TextView;
 
-			BitmapWorkerTask.LoadBitmap (book.CoverUrl, coverView, Resources);
+			coverView.FromUrlNonConcurency(book.CoverUrl, Resources);
 
 			bookInfo.TextFormatted = Html.FromHtml (string.Format ("<b>Название</b>: {0}<br /><br /><b>Авторы:</b> {1}<br /><br /> <b>Издательство:</b> {2}", 
 				book.Name, book.AuthorsShortStr, book.PublishingHouse));

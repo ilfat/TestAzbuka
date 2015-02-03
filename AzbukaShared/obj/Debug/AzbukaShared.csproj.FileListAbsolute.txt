@@ -9,4 +9,3 @@ C:\Users\userocker\Projects\Test_Azbuka\AzbukaShared\bin\Debug\normnfkc.nlp
 C:\Users\userocker\Projects\Test_Azbuka\AzbukaShared\bin\Debug\normnfkd.nlp
 C:\Users\userocker\Projects\Test_Azbuka\AzbukaShared\obj\Debug\AzbukaShared.dll
 C:\Users\userocker\Projects\Test_Azbuka\AzbukaShared\obj\Debug\AzbukaShared.pdb
-C:\Users\userocker\Projects\Test_Azbuka\AzbukaShared\obj\Debug\AzbukaShared.csprojResolveAssemblyReference.cache

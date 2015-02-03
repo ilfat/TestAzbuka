@@ -10,14 +10,27 @@ using System.Net;
 namespace Test_azbuka
 {
 	/// <summary>
-	/// Класс портирован из java кода http://developer.android.com/training/displaying-bitmaps/process-bitmap.html
+	/// Класс портирован из java кода http://developer.android.com/training/displaying-bitmaps/process-bitmap.html 
+	/// При подгрузке изображений динамически в listView столкнулся с проблемой - надо было отменять конкурирующие потоки, 
+	/// ту работу, которую уже можно пропустить. Этот класс с сайта андроида отлично с этим справляется.
 	/// </summary>
 	public class BitmapWorkerTask : AsyncTask<string, Java.Lang.Void, Bitmap> {
 		private WeakReference<ImageView> imageViewReference;
 		private string url = "";
 		Resources resources;
 
-		public BitmapWorkerTask(ImageView imageView, Resources resources) {
+		public static void StartNew(ImageView imageView, string url, Resources resources)
+		{
+			if (CancelPotentialWork (url, imageView)) {
+				BitmapWorkerTask task = new BitmapWorkerTask (imageView, resources);
+				AsyncDrawable asyncDrawable =
+					new AsyncDrawable (resources, null, task);
+				imageView.SetImageDrawable (asyncDrawable);
+				task.Execute (url);
+			}
+		}
+
+		private BitmapWorkerTask(ImageView imageView, Resources resources) {
 			imageViewReference = new WeakReference<ImageView> (imageView);
 			this.resources = resources;
 		}
@@ -46,7 +59,7 @@ namespace Test_azbuka
 			}
 		}
 
-		public static Bitmap DownloadBitmap(string url)
+		static Bitmap DownloadBitmap(string url)
 		{
 			Bitmap imageBitmap = null;
 			try {
@@ -63,7 +76,7 @@ namespace Test_azbuka
 			}
 		}
 
-		public static bool CancelPotentialWork(string url, ImageView imageView) {
+		static bool CancelPotentialWork(string url, ImageView imageView) {
 			BitmapWorkerTask bitmapWorkerTask = getBitmapWorkerTask(imageView);
 
 			if (bitmapWorkerTask != null) {
@@ -76,7 +89,7 @@ namespace Test_azbuka
 			}
 			return true;
 		}
-		private static BitmapWorkerTask getBitmapWorkerTask(ImageView imageView) {
+		static BitmapWorkerTask getBitmapWorkerTask(ImageView imageView) {
 			if (imageView != null) {
 				Drawable drawable = imageView.Drawable;
 				if (drawable is AsyncDrawable) {
@@ -87,15 +100,7 @@ namespace Test_azbuka
 			return null;
 		}
 	
-		public static void LoadBitmap(string url, ImageView imageView, Resources resources) {
-			if (CancelPotentialWork(url, imageView)) {
-				BitmapWorkerTask task = new BitmapWorkerTask(imageView, resources);
-				AsyncDrawable asyncDrawable =
-					new AsyncDrawable(resources, null, task);
-				imageView.SetImageDrawable(asyncDrawable);
-				task.Execute(url);
-			}
-		}
+
 	}
 }
 
